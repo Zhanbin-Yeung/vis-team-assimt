@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Word Cloud Visualization</title>
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="d3.layout.cloud.js"></script>
+    </head>
+    <body>
+        <select id="genre-selector"></select>
+        <div id="genre_summary"></div>
+        <div id="teams"></div>
+        <canvas id="canvas" width="1000" height="800"></canvas>
+        <script type="module" src="summary.js"></script>
+        <script type="module" src="team.js"></script>
+        <script type="module" src="./3D_cloud.js"> </script>
+    </body>
+</html>
+ 
