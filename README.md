@@ -16,15 +16,21 @@
 
 ## 操作方式说明
 
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/6c8ff75b-48b1-4a76-a827-7cd1c38744e0)
+
 通过左侧菜单栏切换不同显示对象，默认为类型词云图。
 
 ### 菜单首项 - 类型词云
 
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/2c28a11e-936a-4443-8a10-d6593397d73f)
 三维的词云图，注重视觉直观体验，**文本字体大小**表示该类别游戏数量。
 
 ### 菜单第2项 - 类型动态图&热力图
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/5551ce09-2951-4d31-985a-7c46f5080109)
 
 左侧动态图显示不同游戏类别数量随时间变化（取前十名）
+
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/077d9f64-d223-4002-9f4a-a0f51737f447)
 
 右侧热力图显示同时属于两种游戏类型的游戏数量。鼠标触碰可显示详细信息。
 
@@ -33,10 +39,15 @@
 显示不同时间各游戏类型的数量和占比。
 
 1. **拖拉左侧缩放框**，可以缩放查看的时间范围，两图表均会做出相应改变。
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/31a7229a-58ec-46ae-8d72-d93e72cffdc3)
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/959d2a29-f11c-40a7-aa73-ba2d10902e8f)
 
 2. **点击右侧饼图的某段**，可以显示该类别**游戏简介**的**文本词云分析**，词云停用某些无义词（如game、player等）。
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/a6ec536d-fa1d-4d3d-98e8-d46e428611b2)
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/5b172f63-8e51-468b-b1b1-4dfd43adae8e)
 
 3. **鼠标触碰**，显示详细信息。
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/291dd9f5-5436-4530-8522-4c1743944555)
 
 ### 菜单第4项 - 游戏发布者网格图
 
@@ -49,14 +60,23 @@
 $$ W_{i, j} = \log ( \frac{i,j团队合作的游戏数量}{团队i制作的游戏数量 + 团队j制作的游戏数量 - i,j团队合作的游戏数量} ) $$
 
 **点击节点**可以进行快速必应搜索。
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/0d4b62ec-7915-46d6-8a21-216bb23fca07)
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/e6f29957-7f57-44b9-9412-2e600bb4dcfe)
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/7a1d5473-a9f9-4ef4-a138-bbd88e1d8fdb)
 
 ### 菜单第5项 - 游戏指标折线&雷达图
 
 除Rating外，数量单位均为 千(k)。
 
 1. **点选上方标签** 可以取消查看某一指标。
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/9a97e900-158e-4a13-8ba0-4bbcab57c276)
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/e726f928-3be9-4f1f-b4ea-ad4bdaf229f3)
+
 2. **触碰左侧节点** 右侧雷达图会显示相关信息
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/53fb282c-f56a-4a46-b229-4e8c9eb906c4)
+   
 3. **上方按钮** 可以切换时间尺度
+![image](https://github.com/ASingleDog/vis-team-assimt/assets/151437767/474c2d48-1b3f-4cc1-8ef3-b1bdcd345c2f)
 
 ### 菜单第6项 - 总体文档
 
