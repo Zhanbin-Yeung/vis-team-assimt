@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+  import Cloud3D from '@/components/Cloud3D.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <Cloud3D></Cloud3D>
   </main>
 </template>
